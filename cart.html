@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Store For WAD</title>
+    <script src="https://kit.fontawesome.com/6b13f71026.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body> 
+
+    <section id="header">
+        <a href="#"><img src="Images/logo.png" class="logo" alt="" width="150px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#Cart</h2>
+        <p>Everything you added to the cart!</p>
+    </section>
+    
+    <section class="cart container my-5 py-5">
+        <div class="container mt-5">
+            <h2 class="font-weight-bold">Your cart</h2>
+        </div>
+        <table class="mt-5 pt-5">
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-info">
+                        <img src="Images/products/f1.jpg">
+                        <div>
+                            <p>Red Apple</p>
+                            <small><span>Rs.</span>2250 per 1kg</small>
+                            <br>
+                            <a class="remove-btn" href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="500">
+                    <a class="edit-btn" href="#">Edit</a>
+                </td>
+                <td>
+                    <span>Rs.</span>
+                    <span class="product-price">2250</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-info">
+                        <img src="Images/products/f2.jpg">
+                        <div>
+                            <p>Green Apple</p>
+                            <small><span>Rs.</span>2550 per 1kg</small>
+                            <br>
+                            <a class="remove-btn" href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="500">
+                    <a class="edit-btn" href="#">Edit</a>
+                </td>
+                <td>
+                    <span>Rs.</span>
+                    <span class="product-price">2550</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="product-info">
+                        <img src="Images/products/f3.jpg">
+                        <div>
+                            <p>Orange</p>
+                            <small><span>Rs.</span>2010 per 1kg</small>
+                            <br>
+                            <a class="remove-btn" href="#">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="500">
+                    <a class="edit-btn" href="#">Edit</a>
+                </td>
+                <td>
+                    <span>Rs.</span>
+                    <span class="product-price">2010</span>
+                </td>
+            </tr>
+        </table>
+        <div class="cart-total">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>Rs.6810</td>
+                </tr>
+                <tr>
+                    <td>Discounts</td>
+                    <td>No discounts at the moment.</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>Rs.6810</td>
+                </tr>
+            </table>
+        </div>
+        <div class="checkout-container">
+            <button class="btn checkout-btn">Checkout</button>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers</span>.</p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>76b Srimath Anagarika Dharmapala Mawatha, Colombo 00300</p>
+            <p><strong>Phone: </strong>011 754 3600 / +94 77 266 5555</p>
+            <p><strong>Hours: </strong>24 Hour Service</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <a href="https://www.facebook.com/SLIITCityUNI" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/sliit_city_uni/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.pinterest.com" target="_blank">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                    <a href="https://youtube.com/@sliitacademy9164?feature=shared" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="cart.html">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="login.html">Sign In</a>
+            <a href="cart.html">View cart</a>
+            <a href="cart.html">My Wishlist</a>
+            <a href="cart.html">Track My Order</a>
+            <a href="contact.html">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="Images/pay/app.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="Images/pay/pay.png" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2024. Remoshan - Web Application Development</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
