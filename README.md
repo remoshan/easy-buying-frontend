@@ -37,7 +37,7 @@ Please **extract both zip files** and combine their contents into a single folde
 ## Video Link
 
 The video used on the About page is hosted on YouTube and can be viewed here:  
-[Easy Buying About Video](https://youtu.be/TwvaI0Bv6b4?feature=shared)
+[Easy Buying About Page Video](https://youtu.be/TwvaI0Bv6b4?feature=shared)
 
 ---
 
